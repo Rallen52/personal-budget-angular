@@ -147,7 +147,7 @@
         }
 
         function getBudget() {
-            axios.get('/budget')
+            axios.get('/budget:3000')
             .then(function (res) {
                 console.log(res);
                 for (var i = 0; i < res.data.myBudget.length; i++) {
