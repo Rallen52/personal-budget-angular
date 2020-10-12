@@ -1,0 +1,32 @@
+div {
+  width: 100%;
+  text-align: center;
+}
+
+form {
+  font-size: medium;
+  margin: auto;
+  width: 30%;
+  padding: 1em;
+  background-color: #4d5791;
+}
+
+.msg {
+  min-height: 4em;
+}
+
+button, label, input {
+  margin: 1em;
+}
+
+button {
+  width: 7em;
+  height: 2.5em;
+  background-color: #b4c6f0;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(180, 198, 240, .5);
+  color: white;
+}
